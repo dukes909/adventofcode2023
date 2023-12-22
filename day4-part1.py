@@ -1,5 +1,5 @@
 sum = 0
-with open('/home/opalko/Desktop/Python Projects/Advent of Code 2023/day4/day4-part1-data.txt', 'r') as file:
+with open('/day4/day4-part1-data.txt', 'r') as file:
     lines = [line.strip() for line in file.readlines()]
     for card in lines:          
         my_numbers = []

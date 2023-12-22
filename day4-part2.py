@@ -34,7 +34,7 @@ def get_card_number(card):
     card_number = int(card_number_list[-1])
     return(card_number)
 
-with open('/home/opalko/Desktop/Python Projects/Advent of Code 2023/day4/day4-part1-data.txt', 'r') as file:
+with open('/day4/day4-part1-data.txt', 'r') as file:
     lines = [line.strip() for line in file.readlines()]
     original_card_total = len(lines)
     for i,card in enumerate(lines):          

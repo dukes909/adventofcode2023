@@ -24,8 +24,6 @@ def get_matches(i,card_string):
                 count += 1
                 matched.append(l)
     number_of_matches = count
-    print(f"{i+1} common nums: {matched} matched: {number_of_matches}") 
-
     return(number_of_matches)
 
 def get_card_number(card):

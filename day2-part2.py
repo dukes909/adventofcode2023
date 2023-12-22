@@ -13,7 +13,7 @@ gpattern = r"(\d+)(?= green)"
 bpattern = r"(\d+)(?= blue)"
 idpattern = r"^Game\s\d+"
 
-with open('/home/opalko/Desktop/Python Projects/Advent of Code 2023/day 2/day2-part1-data.txt', 'r') as file:
+with open('/day 2/day2-part1-data.txt', 'r') as file:
     lines = [line.strip() for line in file.readlines()]
     for line in lines:
         print(f"line: {line}")

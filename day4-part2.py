@@ -52,9 +52,10 @@ with open('/day4/day4-part1-data.txt', 'r') as file:
         matches = match_dict[number]
         if matches == 0:
             copies_dict[number]=0
-        elif matches == 1:
-            copied_cards += matches
-            copies_dict[number] = 1
+ # this section caused me some grief!!!
+ #       elif matches == 1:
+ #           copied_cards += matches
+ #           copies_dict[number] = 1
         else:
             local_matches = matches
             copied_cards += matches
